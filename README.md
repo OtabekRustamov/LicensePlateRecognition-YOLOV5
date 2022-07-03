@@ -4,5 +4,5 @@ Uzbekistan License Plate Recognation
 
 
 You can donwload yolo.weights and datasets here :
-https://drive.google.com/drive/folders/17gxw7tv7jy3KgJFhQiHX0IilYObFbIJp?usp=sharing
+https://drive.google.com/drive/folders/1Xw-QoKg9xP4oUJFtw3NZG48VI2cfo1C-?usp=sharing
 
