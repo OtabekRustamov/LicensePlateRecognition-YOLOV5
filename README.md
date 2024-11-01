@@ -22,21 +22,20 @@ This repository provides scripts for training, evaluating, and testing a YOLOv5 
 
 ## Training
 To train the model, use `train.py`:
-
 python train.py --data data/coco.yaml --cfg models/yolov5x.yaml --weights weights/yolov5x.pt --batch-size 2 --epochs 300
 
-## Training
-To evaluate performance on validation data, use evaluate.py:
+## Evaluation
 python evaluate.py --weights weights/best.pt --data data/coco.yaml --img-size 640 --conf-thres 0.25 --iou-thres 0.5
 
-## Training
-For inference and saving predictions:
+## Testing
 python test.py --weights weights/yolov5s.pt --data data/coco128.yaml --batch-size 32 --img-size 640
 
-![test_image](img.png)
-
+![img.png](img.png)
+![img_1.png](img_1.png)
 
 ## Configuration
 Classes: Define the class labels in CLASSES (e.g., numbers, letters, "License Plate").
 Paths: Set base_path to the dataset location.
 Hyperparameters: Configure in YAML files (e.g., hyp.yaml).
+You can donwload yolo.weights:
+https://drive.google.com/drive/folders/1Xw-QoKg9xP4oUJFtw3NZG48VI2cfo1C-?usp=sharing
